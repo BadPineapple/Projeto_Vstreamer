@@ -1,16 +1,21 @@
 {
-  "name": "projeto_tabnews",
-  "version": "1.0.0",
-  "description": "Projeto para realização do curso https://curso.dev",
-  "main": "index.js",
-  "scripts": {
-    "dev": "next dev"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "next": "^13.1.6",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  }
+    "name": "projeto_tabnews",
+    "version": "1.0.0",
+    "description": "Projeto para realização do curso https://curso.dev",
+    "main": "index.js",
+    "scripts": {
+        "dev": "next dev",
+        "lint:check": "prettier --check .",
+        "lint:fix": "prettier --write ."
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "next": "^13.1.6",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+        "prettier": "^3.0.0"
+    }
 }
